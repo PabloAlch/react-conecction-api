@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react'
-import './App.css'
+
 import { getUsers } from './services/services-api'
-// const axios = require('axios');
 
 
-function App() {
-  
-const [users, setUsers] = useState(null)
+
+export const CreateUser = () => {
+  const [users, setUsers] = useState(null)
 
 useEffect(() => {
   getUsers()
@@ -34,5 +33,3 @@ console.log(users?.data)
     </>
   )
 }
-
-export default App
