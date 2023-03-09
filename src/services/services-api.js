@@ -10,4 +10,9 @@ export const getUsers = () => {
  }
 
 
+export const getMensajes = () => { 
+  return http.get('/mensajes')
+ }
+
+
 // const baseURL = 'http://localhost:3001'
