@@ -10,15 +10,15 @@ export const QuironApp = () => {
   return (
     <>
         {/* Rutas para paginas (carpetas auth > router  y app > router)auth y app */}
-        {/* <AppRouter /> */}
+        <AppRouter />
 
 
-        <h2>createUser</h2>
+        {/* <h2>createUser</h2> */}
         {/* Ruta directa prueba axios */}
-        <CreateUser />
+        {/* <CreateUser /> */}
 
-        <h2>mensaje Lista</h2>
-        <MensajeLista />
+        {/* <h2>mensaje Lista</h2> */}
+        {/* <MensajeLista /> */}
 
     </>
   )

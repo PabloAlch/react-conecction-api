@@ -15,4 +15,15 @@ export const getMensajes = () => {
  }
 
 
+ export const changeStateMessage = (id) => { 
+  return http.post(`/mensajes/read/${id}`)
+ }
+
+
+ export const getMessage = (id) => { 
+  return http.get(`/mensajes/${id}`)
+ }
+
+
 // const baseURL = 'http://localhost:3001'
+// mensajes/:id
